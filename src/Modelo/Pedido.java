@@ -18,4 +18,18 @@ public class Pedido{
     private void Pedido(String TipoPedido){
         listaPedidos.add(TipoPedido);
     }
+    
+    private  String CancelarPedido(){
+        
+        return null;
+        
+    }
+
+
+private String  Completar(){
+
+        return null;
+
+} 
+
 }
