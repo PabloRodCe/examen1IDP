@@ -9,10 +9,12 @@ package Modelo;
  * @author Student
  */
 public class Cliente {
+
    private int id;
    private String nombre;
    private String apellido;
    String Torden;
+   
 
     public Cliente(int id, String nombre, String apellido) {
         this.id = id;
@@ -20,10 +22,7 @@ public class Cliente {
         this.apellido = apellido;
     }
 
-    public int getId() {
-        return id;
-    }
-
+   
     public void setId(int id) {
         this.id = id;
     }
@@ -43,5 +42,8 @@ public class Cliente {
     public void setApellido(String apellido) {
         this.apellido = apellido;
     }
-   
 }
+
+   
+
+
