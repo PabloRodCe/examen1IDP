@@ -9,5 +9,5 @@ package Vista;
  * @author Student
  */
 public class NewClass {
-  
+    
 }
