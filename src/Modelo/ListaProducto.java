@@ -16,4 +16,7 @@ public class ListaProducto extends Producto {
     public void AgregarProducto(int id,String descripcion ,int precio){
     listaProducto.add(Producto);
     }
+    public void CancelarPr(int id,String descripcion ,int precio){
+    listaProducto.clear(Producto);
+    }
 }
