@@ -4,6 +4,8 @@
  */
 package Modelo;
 
+
+
 /**
  *
  * @author Student
@@ -20,6 +22,10 @@ public class Cliente extends Pedido{
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
+    }
+
+    public int getId() {
+        return id;
     }
 
    
