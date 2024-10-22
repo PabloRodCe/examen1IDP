@@ -4,10 +4,17 @@
  */
 package Controller;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Student
  */
 public class GestorPedidos {
+    ArrayList<String>listaPedidosR=new ArrayList<>();
+
+    public GestorPedidos() {
+    }
+    
     
 }
