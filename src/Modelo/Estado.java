@@ -8,6 +8,16 @@ package Modelo;
  *
  * @author Student
  */
-public class Estado {
+public abstract class Estado {
+    Pedido pedido;
+
+    public Estado(Pedido pedido) {
+        this.pedido = pedido;
+    }
+    
+    public abstract String pendiente();
+    public abstract String cancelado();
+    public abstract String completado();
+    public abstract String entregado();
     
 }
