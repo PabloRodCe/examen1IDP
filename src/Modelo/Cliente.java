@@ -12,6 +12,7 @@ public class Cliente {
    private int id;
    private String nombre;
    private String apellido;
+   String Torden;
 
     public Cliente(int id, String nombre, String apellido) {
         this.id = id;
