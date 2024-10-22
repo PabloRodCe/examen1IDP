@@ -8,7 +8,7 @@ package Modelo;
  *
  * @author Student
  */
-public class Cliente {
+public class Cliente extends Pedido{
 
    private int id;
    private String nombre;
@@ -42,6 +42,12 @@ public class Cliente {
     public void setApellido(String apellido) {
         this.apellido = apellido;
     }
+
+    @Override
+    public String toString() {
+        return "Cliente{" + "id=" + id + ", nombre=" + nombre + ", apellido=" + apellido + ", Torden=" + Torden + '}';
+    }
+    
 }
 
    

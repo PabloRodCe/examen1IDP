@@ -11,6 +11,9 @@ import java.util.ArrayList;
  * @author Student
  */
 public class Pedido{
+    private Cliente cliente;
+    private String estado;
+    
     ArrayList<String>listaPedidos=new ArrayList<>();
 
  
