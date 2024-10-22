@@ -4,10 +4,16 @@
  */
 package Modelo;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Student
  */
-public class ListaProducto {
+public class ListaProducto extends Producto {
+    ArrayList<String>listaProducto=new ArrayList<Producto>();
     
+    public void AgregarProducto(int id,String descripcion ,int precio){
+    listaProducto.add(Producto);
+    }
 }
