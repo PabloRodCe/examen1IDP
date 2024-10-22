@@ -8,6 +8,6 @@ package Modelo;
  *
  * @author Student
  */
-public class NewClass {
+public class Estado {
     
 }
